@@ -1,0 +1,27 @@
+.header-container {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.purchase {
+    display: flex;
+    align-items: center;
+    width: 240px;
+    justify-content: flex-end;
+}
+
+.company-name {
+    font-size: 28px;
+    color: #3F3E3E;
+}
+
+.navigation > * {
+    margin-right: 32px;
+}
+
+.navigation a:last-child {
+    margin-right: 0;
+}

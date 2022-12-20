@@ -1,0 +1,77 @@
+body {
+  color: #000;
+  margin: 0;
+  padding: 0 20px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+p {
+  margin: 0;
+  margin-block: 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  padding: 0;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-container {
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  display: flex;
+}
+
+.purchase {
+  width: 240px;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.company-name {
+  color: #3f3e3e;
+  font-size: 28px;
+}
+
+.navigation > * {
+  margin-right: 32px;
+}
+
+.navigation a:last-child {
+  margin-right: 0;
+}
+
+.buy-button {
+  height: 40px;
+  color: #fff;
+  background: #434343;
+  border-radius: 100px;
+  margin-left: 16px;
+  padding: 10px 24px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.navigation-link {
+  color: #3f3e3e;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+
+/*# sourceMappingURL=index.61d3354a.css.map */
