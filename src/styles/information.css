@@ -1,0 +1,66 @@
+.information {
+    display: flex;
+    margin-top: 116px;
+    margin-left: 60px;
+    
+}
+
+.info-foto {
+    display: flex;
+    column-gap: 16px;
+}
+
+.reference-title {
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 32px;
+}
+
+.reference-text {
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+
+.reference {
+    margin-left: 64px;
+    width: 36%;
+}
+
+.info-purchase {
+    justify-content:start;
+    margin-top: 30px;
+    
+}
+.info-price {
+    margin-left: 32px;
+}
+
+.delivery-returns {
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+}
+
+.delivery-text {
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.return {
+    display: flex;
+    align-items: center;
+}
+
+.return-text {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 10px;
+}

@@ -1,0 +1,45 @@
+.overview-pictures {
+    padding: 51px 0 80px 0;
+    background: rgba(220, 185, 63, 0.77);
+    border-radius: 10px;
+    position: relative;
+}
+
+.overview-image {
+    position: absolute;
+    left: calc(50% - 312px);
+    bottom: -120px;
+}
+
+.overview-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 9vw;
+    line-height: 20vh;
+    text-align: center;
+    width: 82%;
+    margin: 0 auto;
+    color: #3F3E3E;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #555353;
+    text-align: center;
+    margin-top: 390px;
+    margin-right: 40px;
+}
+
+.description-text {
+    color: black;
+
+}
+
+.description-version {
+    font-size: 36px;
+    margin-right: 32px;
+}
+
