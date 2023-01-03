@@ -86,6 +86,120 @@
             </button>
         </section>
 
+        <section class="feature-wrapper">
+            <h1>Key features</h1>
+
+            <div class="carousel" aria-label="Gallery">
+
+                <ol class="carousel__viewport">
+                  <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper">
+                        <div class="feature-container">
+                            <div class="feature">
+                                <img class="feature-photo" src="/headphones-slide-1.3e8d2237.png">
+                            <div class="feature-text-container">
+                                <p class="feature-title">Angled corbon cones</p>
+                                <p class="feature-decription">Px8’s precisely angled Carbon Cone drive units reduce distortion, resulting in massively improved clarity. Coupled to a fully optimized drive unit ‘motor system’, with revised magnet, voice coil and surround, the result is unparalleled accuracy and realism.</p>
+                            </div>
+                            </div>
+                            <div class="feature">
+                                <img class="feature-photo" src="/headphones-slide-2.df134adc.png">
+                            <div class="feature-text-container">
+                                <p class="feature-title">High-resolution sound with advanced DSP</p>
+                                <p class="feature-decription">Px8 uses aptX™ Adaptive wireless technology and powerful Digital Signal Processing to ensure outstanding 24-bit high-resolution sound quality from suitable streaming services. You can also connect to your laptop via USB to enjoy high-resolution streaming.</p>
+                            </div>
+                            </div>
+                        </div>
+                      <a href="#carousel__slide2" class="carousel__prev">Go to last slide</a>
+                      <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                    </div>
+                  </li>
+                  <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper">
+                        <div class="feature-container">
+                            <div class="feature">
+                                <img class="feature-photo" src="/headphones-slide-3.6c8a7136.png">
+                            <div class="feature-text-container">
+                                <p class="feature-title">NEXT Angled corbon cones</p>
+                                <p class="feature-decription">Px8’s precisely angled Carbon Cone drive units reduce distortion, resulting in massively improved clarity. Coupled to a fully optimized drive unit ‘motor system’, with revised magnet, voice coil and surround, the result is unparalleled accuracy and realism.</p>
+                            </div>
+                            </div>
+                            <div class="feature">
+                                <img class="feature-photo" src="/headphones-slide-4.5713963f.png">
+                            <div class="feature-text-container">
+                                <p class="feature-title">NEXT High-resolution sound with advanced DSP</p>
+                                <p class="feature-decription">Px8 uses aptX™ Adaptive wireless technology and powerful Digital Signal Processing to ensure outstanding 24-bit high-resolution sound quality from suitable streaming services. You can also connect to your laptop via USB to enjoy high-resolution streaming.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide1" class="carousel__next">Go to next slide</a>
+                  </li>
+
+                </ol>
+    
+            </div>
+        </section>
+
+       <section class="specifications">
+        <div class="specifications-title">
+            <p class="specifications-title-text">Specifications</p>
+        </div>
+        <div class="specifications-photo">
+            <img id="spec-photo-black" class="spec-photo spec-photo-1" src="/specifications-photo-1.4d399341.png" alt="">
+            <img id="spec-photo-grey" class="spec-photo spec-photo-2" src="/specifications-photo-2.e88d22e2.png" alt="">
+            <img id="spec-photo-blue" class="spec-photo spec-photo-3" src="/specifications-photo-3.a9a7b6b5.png" alt="">
+        </div>
+        <div class="specifications-buttons">
+            <button id="spec-btn-black" class="spec-btn">
+                <div class="btn-black"></div>
+            </button>
+            <button id="spec-btn-grey" class=" spec-btn">
+                <div class="btn-grey"></div>
+            </button>
+            <button id="spec-btn-blue" class=" spec-btn">
+                <div class="btn-blue"></div>
+            </button>    
+        </div>
+       </section>
+
     </main>
+
 <script src="/headphones-lending.59712999.js"></script></body>
+
+<script>const getElementById = (id)=>document.getElementById(id);
+const imgBlack = getElementById("spec-photo-black");
+const imgGrey = getElementById("spec-photo-grey");
+const imgBlue = getElementById("spec-photo-blue");
+const btnBlack = getElementById("spec-btn-black");
+const btnGrey = getElementById("spec-btn-grey");
+const btnBlue = getElementById("spec-btn-blue");
+btnBlack.addEventListener("click", ()=>{
+    imgBlack.style.display = "block";
+    imgGrey.style.display = "none";
+    imgBlue.style.display = "none";
+    btnBlack.style.borderColor = "red";
+    btnGrey.style.borderColor = "transparent";
+    btnBlue.style.borderColor = "transparent";
+});
+btnGrey.addEventListener("click", ()=>{
+    imgBlack.style.display = "none";
+    imgGrey.style.display = "block";
+    imgBlue.style.display = "none";
+    btnBlack.style.borderColor = "transparent";
+    btnGrey.style.borderColor = "red";
+    btnBlue.style.borderColor = "transparent";
+});
+btnBlue.addEventListener("click", ()=>{
+    imgBlack.style.display = "none";
+    imgGrey.style.display = "none";
+    imgBlue.style.display = "block";
+    btnBlack.style.borderColor = "transparent";
+    btnGrey.style.borderColor = "transparent";
+    btnBlue.style.borderColor = "red";
+});
+
+</script>
 </html>
