@@ -2,12 +2,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 90px;
 }
 
 .specifications-title-text {
     font-weight: 800;
     font-size: 64px;
     line-height: 82px;
+    margin: 0 896px 44px 61px;
+}
+
+.specifications-title-color {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    margin: 44px 1270px 0 60px;
 }
 
 .specifications-photo {
@@ -39,6 +48,10 @@
     justify-content: center;
 }
 
+.initial-spec-btn {
+    border: 1px solid red;
+}
+
 .spec-photo-2, .spec-photo-3 {
     display: none;
 }
@@ -49,7 +62,7 @@
     height: 40px;
     margin: 0;
     border-radius: 50%;
-
+    
 }
 
 .btn-grey {

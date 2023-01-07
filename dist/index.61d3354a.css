@@ -224,100 +224,34 @@ ol, li {
   line-height: 24px;
 }
 
-@keyframes tonext {
-  75% {
-    left: 0;
-  }
-
-  95% {
-    left: 100%;
-  }
-
-  98% {
-    left: 100%;
-  }
-
-  99% {
-    left: 0;
-  }
-}
-
-@keyframes tostart {
-  75% {
-    left: 0;
-  }
-
-  95% {
-    left: -300%;
-  }
-
-  98% {
-    left: -300%;
-  }
-
-  99% {
-    left: 0;
-  }
-}
-
-@keyframes snap {
-  96% {
-    scroll-snap-align: center;
-  }
-
-  97% {
-    scroll-snap-align: none;
-  }
-
-  99% {
-    scroll-snap-align: none;
-  }
-
-  100% {
-    scroll-snap-align: center;
-  }
-}
-
-::-webkit-scrollbar {
-  width: 0;
-}
-
-::-webkit-scrollbar-track {
-  background: none;
-}
-
-::-webkit-scrollbar-thumb {
-  background: none;
-  border: none;
-}
-
-* {
-  -ms-overflow-style: none;
+.carousel-title {
+  width: max-content;
+  margin: 60px 936px 44px 60px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 82px;
 }
 
 .carousel {
-  height: 100vh;
+  height: 900px;
   filter: drop-shadow(0 0 10px #0003);
-  position: relative;
 }
 
 .carousel__viewport {
   display: flex;
   position: absolute;
   inset: 0;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .carousel__slide {
   width: 100%;
-  counter-increment: item;
   flex: 0 0 100%;
   position: relative;
 }
 
 .carousel__slide:before {
-  content: counter(item);
   color: #fff;
   font-size: 2em;
   position: absolute;
@@ -461,13 +395,22 @@ ol, li {
 .specifications {
   flex-direction: column;
   justify-content: center;
+  margin-top: 90px;
   display: flex;
 }
 
 .specifications-title-text {
+  margin: 0 896px 44px 61px;
   font-size: 64px;
   font-weight: 800;
   line-height: 82px;
+}
+
+.specifications-title-color {
+  margin: 44px 1270px 0 60px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
 }
 
 .specifications-photo {
@@ -491,6 +434,10 @@ ol, li {
   align-items: center;
   margin: 8px;
   display: flex;
+}
+
+.initial-spec-btn {
+  border: 1px solid red;
 }
 
 .spec-photo-2, .spec-photo-3 {
@@ -519,6 +466,95 @@ ol, li {
   background-color: #15517b;
   border-radius: 50%;
   margin: 0;
+}
+
+.app-title {
+  width: max-content;
+  margin: 0 404px 44px 60px;
+}
+
+.app-title-text {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 82px;
+}
+
+.app-text-telephon {
+  align-items: center;
+  display: flex;
+}
+
+.app-text {
+  width: 504px;
+  margin-left: 236px;
+  margin-right: 87px;
+}
+
+.app-text-title {
+  margin-bottom: 32px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.app-text-description {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer {
+  background: #a9c7c991;
+  flex-direction: column;
+  margin: 0 -20px;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.footer-nav-container {
+  width: 100%;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.footer-copyright-container {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.footer-company-name {
+  margin-left: 41px;
+}
+
+.footer-company-name-container {
+  flex-basis: 55%;
+}
+
+.footer-nav {
+  align-items: center;
+  margin-right: 32px;
+  display: flex;
+}
+
+.footer-nav > * {
+  margin-right: 32px;
+}
+
+.footer-navigation-link {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.footer-nav > * {
+  margin-right: 32px;
+}
+
+.footer-navigation-link {
+  color: #3f3e3e;
+  color: #3f3e3e;
 }
 
 

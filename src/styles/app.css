@@ -1,0 +1,35 @@
+.app-title {
+    margin: 0 404px 44px 60px;
+    width: max-content;
+}
+
+.app-title-text {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 82px;
+}
+
+.app-text-telephon {
+    display: flex;
+    align-items: center;
+}
+
+.app-text {
+    width: 504px;
+    margin-left: 236px;
+    margin-right: 87px;
+}
+
+.app-text-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 32px;
+}
+
+.app-text-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
